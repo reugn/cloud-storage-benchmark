@@ -1,4 +1,8 @@
 # Cloud Storage Benchmark
+[![Build](https://github.com/reugn/cloud-storage-benchmark/actions/workflows/build.yml/badge.svg)](https://github.com/reugn/cloud-storage-benchmark/actions/workflows/build.yml)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/reugn/cloud-storage-benchmark)](https://pkg.go.dev/github.com/reugn/cloud-storage-benchmark)
+[![Go Report Card](https://goreportcard.com/badge/github.com/reugn/cloud-storage-benchmark)](https://goreportcard.com/report/github.com/reugn/cloud-storage-benchmark)
+
 A CLI tool to evaluate performance of various cloud storage providers.
 
 ## Supported storage providers
