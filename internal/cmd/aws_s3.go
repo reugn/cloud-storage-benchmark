@@ -23,6 +23,7 @@ func NewAwsS3(flags *commonFlags) *AwsS3 {
 	}
 }
 
+//nolint:dupl
 func (c *AwsS3) NewCommand() *cobra.Command {
 	command := &cobra.Command{
 		Use:   "aws-s3",

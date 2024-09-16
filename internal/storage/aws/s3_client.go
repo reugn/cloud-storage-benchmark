@@ -2,6 +2,7 @@ package aws
 
 import (
 	"context"
+	"errors"
 	"fmt"
 	"io"
 
@@ -38,7 +39,7 @@ func (c *S3Client) Read(key string) error {
 
 	_, err = io.ReadAll(getObjectOutput.Body)
 
-	return err
+	return errors.Join(err, getObjectOutput.Body.Close())
 }
 
 func (c *S3Client) Write(key string) error {

@@ -7,8 +7,8 @@ A CLI tool to evaluate performance of various cloud storage providers.
 
 ## Supported storage providers
 - [x] [AWS S3](https://aws.amazon.com/s3/)
-- [ ] [GCP Storage](https://cloud.google.com/storage/)
-- [ ] [Azure Blob Storage](https://azure.microsoft.com/en-us/products/storage/blobs/)
+- [x] [GCP Storage](https://cloud.google.com/storage/)
+- [x] [Azure Blob Storage](https://azure.microsoft.com/en-us/products/storage/blobs/)
 
 ## Build from source
 Download and [install Go](https://golang.org/doc/install).
